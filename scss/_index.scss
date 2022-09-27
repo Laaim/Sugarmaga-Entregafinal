@@ -28,8 +28,7 @@ body{font-family: 'Roboto', sans-serif;}
         text-decoration: none;
     }}
 main{
-    .separadorInd{background-color:  map-get($fondoSection , $key:fondo2 );
         padding: 40px;
         @extend %index;
     p{text-align: center;
-    }}}
+    }}
