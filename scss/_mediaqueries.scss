@@ -49,10 +49,3 @@
         }    }
         .productosIndex{text-align: center;}
 
-/*MEDIA QUERIE PRODUCTOS */
-    @media only screen and (max-width: 768px){
-        .categorias-items{min-width: 100%;}
-        .productosDestacados{
-            grid-template-columns: 1fr;
-        }
-}

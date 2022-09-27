@@ -24,11 +24,16 @@ body{font-family: 'Roboto', sans-serif;}
                     }
                 }
             }
+
     .bton{ @extend %boton;
         text-decoration: none;
     }}
 main{
-        padding: 40px;
+    .separadorIndex{background-color:  map-get($fondoSection , $key:fondo2 );
+        padding: 5px;
+        @extend %index;
+    }
+        padding: 5px;
         @extend %index;
     p{text-align: center;
     }}
