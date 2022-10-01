@@ -7,8 +7,7 @@ body{font-family: 'Roboto', sans-serif;}
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            @extend %boton;}}
-    .index{
+            @extend %boton;}
         h1{text-align: center;}
             .bton{font-size: 1em;
             background-color: #74cbc7;
