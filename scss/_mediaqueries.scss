@@ -27,7 +27,7 @@
 /*MEDIA QUERIE INDEX*/
 @media only screen and (max-width: 768px){
     main{display: flex;
-        .index{
+        .index{ .botonBanner{display: none;}
         .presentacionProd{grid-template-areas: 
             "imgIndex"
             "textoIndex";
@@ -44,8 +44,7 @@
         }
     .separadorInd{flex-direction: column;}}}
         }
-        h1{display: none;
-    iframe{max-width: 100%;}
-        }    }
-        .productosIndex{text-align: center;}
 
+    iframe{max-width: 100%;}
+        }    
+        .productosIndex{text-align: center;}
