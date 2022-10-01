@@ -31,11 +31,11 @@ footer{
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: auto;
-    grid-template-areas: "logoFooter footerNav contactanos";
-    .logoFooter{grid-area: logoFooter;}
+    grid-template-rows: auto auto;
+    grid-template-areas: "logoFooter footerNav contactanos ";
+    .logoFooter{grid-area: logoFooter;text-align: center;}
+    .contactanos{grid-area: contactanos;}
     .footerNav{grid-area: footerNav;
-    padding: 30px 30px 20px 30px;
     color: $nav-font-color;
     background-color: $nav-background; }}
     h2{font-weight: 400;

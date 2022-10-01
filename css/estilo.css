@@ -119,13 +119,15 @@ footer .footer {
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "logoFooter footerNav contactanos"; }
+  grid-template-rows: auto auto;
+  grid-template-areas: "logoFooter footerNav contactanos "; }
   footer .footer .logoFooter {
-    grid-area: logoFooter; }
+    grid-area: logoFooter;
+    text-align: center; }
+  footer .footer .contactanos {
+    grid-area: contactanos; }
   footer .footer .footerNav {
     grid-area: footerNav;
-    padding: 30px 30px 20px 30px;
     color: black;
     background-color: white; }
 
@@ -159,15 +161,12 @@ footer li {
   footer .footer {
     display: flex;
     text-align: center;
-    justify-content: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "footerNav" "contactanos"; }
     footer .footer .logoFooter {
-      display: none; }
-    footer .footer .footerNav {
-      grid-area: footerNav; } }
+      display: none; } }
 
 /*MEDIA QUERIE INDEX*/
 @media only screen and (max-width: 768px) {

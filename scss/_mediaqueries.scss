@@ -15,13 +15,12 @@
         footer{.footer {
             display: flex;
             text-align: center;
-            justify-content: center;
             display: grid;
-            grid-template-columns: 1fr ;
+            grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-template-areas: "footerNav" "contactanos";
             .logoFooter{display: none;}
-            .footerNav{grid-area: footerNav;}}}}
+            }}}
 
     
 /*MEDIA QUERIE INDEX*/
